@@ -1,0 +1,12 @@
+C:\Users\bodyXY\source\repos\Ultimate Material Hactool GUI\Ultimate Material Hactool GUI\bin\Release\Ultimate Material Hactool GUI.exe.config
+C:\Users\bodyXY\source\repos\Ultimate Material Hactool GUI\Ultimate Material Hactool GUI\bin\Release\Ultimate Material Hactool GUI.exe
+C:\Users\bodyXY\source\repos\Ultimate Material Hactool GUI\Ultimate Material Hactool GUI\bin\Release\Ultimate Material Hactool GUI.pdb
+C:\Users\bodyXY\source\repos\Ultimate Material Hactool GUI\Ultimate Material Hactool GUI\bin\Release\MaterialSkin.dll
+C:\Users\bodyXY\source\repos\Ultimate Material Hactool GUI\Ultimate Material Hactool GUI\obj\Release\Ultimate Material Hactool GUI.csprojAssemblyReference.cache
+C:\Users\bodyXY\source\repos\Ultimate Material Hactool GUI\Ultimate Material Hactool GUI\obj\Release\Ultimate_Material_Hactool_GUI.GUI_Main.resources
+C:\Users\bodyXY\source\repos\Ultimate Material Hactool GUI\Ultimate Material Hactool GUI\obj\Release\Ultimate_Material_Hactool_GUI.Properties.Resources.resources
+C:\Users\bodyXY\source\repos\Ultimate Material Hactool GUI\Ultimate Material Hactool GUI\obj\Release\Ultimate Material Hactool GUI.csproj.GenerateResource.cache
+C:\Users\bodyXY\source\repos\Ultimate Material Hactool GUI\Ultimate Material Hactool GUI\obj\Release\Ultimate Material Hactool GUI.csproj.CoreCompileInputs.cache
+C:\Users\bodyXY\source\repos\Ultimate Material Hactool GUI\Ultimate Material Hactool GUI\obj\Release\Ultimate Material Hactool GUI.csproj.CopyComplete
+C:\Users\bodyXY\source\repos\Ultimate Material Hactool GUI\Ultimate Material Hactool GUI\obj\Release\Ultimate Material Hactool GUI.exe
+C:\Users\bodyXY\source\repos\Ultimate Material Hactool GUI\Ultimate Material Hactool GUI\obj\Release\Ultimate Material Hactool GUI.pdb
