@@ -4,3 +4,6 @@ Another Hactool GUI
 This is my first little program written in C#.
 
 I did not like the other GUI's or are out of date, so i written my own in a time-fair style.
+He is not perfect and you can certainly improve a lot, but he is running.
+
+My Discord: https://discord.gg/W4c78K7
