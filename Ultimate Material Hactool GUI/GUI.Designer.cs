@@ -79,6 +79,8 @@ namespace Ultimate_Material_Hactool_GUI
             this.VersionsLabel = new MaterialSkin.Controls.MaterialLabel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.materialTabSelector1 = new MaterialSkin.Controls.MaterialTabSelector();
+            this.NcaTitleKeyTextbox = new System.Windows.Forms.TextBox();
+            this.TitlekeyLabel = new MaterialSkin.Controls.MaterialLabel();
             this.materialTabControl1.SuspendLayout();
             this.NsptabPage.SuspendLayout();
             this.tabPage2.SuspendLayout();
@@ -260,6 +262,8 @@ namespace Ultimate_Material_Hactool_GUI
             // 
             // tabPage2
             // 
+            this.tabPage2.Controls.Add(this.TitlekeyLabel);
+            this.tabPage2.Controls.Add(this.NcaTitleKeyTextbox);
             this.tabPage2.Controls.Add(this.NcaExtractButton);
             this.tabPage2.Controls.Add(this.NcaFileLabel);
             this.tabPage2.Controls.Add(this.NcaSwtichKeysLabel);
@@ -741,7 +745,7 @@ namespace Ultimate_Material_Hactool_GUI
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox1.Image = global::Ultimate_Material_Hactool_GUI.Properties.Resources.BigN_Share_community_sig1;
-            this.pictureBox1.Location = new System.Drawing.Point(157, 328);
+            this.pictureBox1.Location = new System.Drawing.Point(161, 336);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(381, 104);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
@@ -759,6 +763,27 @@ namespace Ultimate_Material_Hactool_GUI
             this.materialTabSelector1.Size = new System.Drawing.Size(673, 39);
             this.materialTabSelector1.TabIndex = 17;
             this.materialTabSelector1.Text = "materialTabSelector1";
+            // 
+            // NcaTitleKeyTextbox
+            // 
+            this.NcaTitleKeyTextbox.Font = new System.Drawing.Font("Roboto", 12F);
+            this.NcaTitleKeyTextbox.Location = new System.Drawing.Point(325, 147);
+            this.NcaTitleKeyTextbox.Name = "NcaTitleKeyTextbox";
+            this.NcaTitleKeyTextbox.Size = new System.Drawing.Size(325, 29);
+            this.NcaTitleKeyTextbox.TabIndex = 27;
+            // 
+            // TitlekeyLabel
+            // 
+            this.TitlekeyLabel.AutoSize = true;
+            this.TitlekeyLabel.Depth = 0;
+            this.TitlekeyLabel.Font = new System.Drawing.Font("Roboto", 11F);
+            this.TitlekeyLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.TitlekeyLabel.Location = new System.Drawing.Point(252, 151);
+            this.TitlekeyLabel.MouseState = MaterialSkin.MouseState.HOVER;
+            this.TitlekeyLabel.Name = "TitlekeyLabel";
+            this.TitlekeyLabel.Size = new System.Drawing.Size(67, 19);
+            this.TitlekeyLabel.TabIndex = 28;
+            this.TitlekeyLabel.Text = "TitleKey:";
             // 
             // GUI_Main
             // 
@@ -843,5 +868,7 @@ namespace Ultimate_Material_Hactool_GUI
         private System.Windows.Forms.TextBox romFSOutTextbox;
         private MaterialSkin.Controls.MaterialTabSelector materialTabSelector1;
         private MaterialSkin.Controls.MaterialFlatButton RomFSExtractButton;
+        private MaterialSkin.Controls.MaterialLabel TitlekeyLabel;
+        private System.Windows.Forms.TextBox NcaTitleKeyTextbox;
     }
 }

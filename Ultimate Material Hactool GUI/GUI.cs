@@ -159,6 +159,20 @@ namespace Ultimate_Material_Hactool_GUI
                 MessageBox.Show("Invalid NCA output path!", "Error.", MessageBoxButtons.OK);
                 return;
             }
+            else if (NcaTitleKeyTextbox.Text != string.Empty)
+            {
+                if (NcaTitleKeyTextbox.Text.Length > 32 || NcaTitleKeyTextbox.Text.Length < 32)
+                {
+                    MessageBox.Show("Invalid title-key!", "Error.", MessageBoxButtons.OK);
+                    return;
+                }
+            }
+            if (NcaTitleKeyTextbox.Text != string.Empty)
+            {
+                Hactool.RunCommand($"--keyset \"{NcaKeysTextbox.Text}\" --titlekey={NcaTitleKeyTextbox.Text} \"{NcaInTextbox.Text}\" --section0dir=\"{NcaOutTextbox.Text}/exefs\" --romfsdir=\"{NcaOutTextbox.Text}/romfs\"");
+
+                ExtractedCompleted();
+            }
             else
             {
                 Hactool.RunCommand($" \"{NcaInTextbox.Text}\" --keyset \"{NcaKeysTextbox.Text}\" --section0dir=\"{NcaOutTextbox.Text}/exefs\" --romfsdir=\"{NcaOutTextbox.Text}/romfs\"");
