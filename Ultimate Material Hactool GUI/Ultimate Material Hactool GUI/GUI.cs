@@ -456,6 +456,7 @@ namespace Ultimate_Material_Hactool_GUI
             backgroundWorker1.WorkerSupportsCancellation = true;
             backgroundWorker1.CancelAsync();
             ExtractBtnOn();
+            CancelButton.Enabled = false;
             TextFieldOn();
             LoadingPicOFF();
         }
