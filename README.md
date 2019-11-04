@@ -11,6 +11,7 @@ My Discord: https://discord.gg/W4c78K7
 Update 1.0
 
 * add process bar
+* add cancel button
 * add more background checks
 * clean up the code
 * add code documentation
