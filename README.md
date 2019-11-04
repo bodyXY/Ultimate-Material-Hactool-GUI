@@ -10,12 +10,12 @@ My Discord: https://discord.gg/W4c78K7
 
 Update 1.0
 
-# add process bar
-# add more background checks
-# clean up the code
-# add code documentation
-# fix UI freezing when process running
-# now directly with newest hactool version 
+* add process bar
+* add more background checks
+* clean up the code
+* add code documentation
+* fix UI freezing when process running
+* now directly with newest hactool version 
 
 credits to SciresM
 https://github.com/SciresM/hactool
